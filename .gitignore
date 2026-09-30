@@ -1,7 +1,5 @@
 #Node
 node_modules/
-.features-gen/
-dist/
 
 #Environment variables
 .env
