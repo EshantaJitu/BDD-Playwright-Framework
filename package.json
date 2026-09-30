@@ -6,6 +6,7 @@
   "scripts": {
     "pretest": "npx bddgen",
     "test": "npx bddgen && npx playwright test",
+    "test:bdd:smoke": "npx bddgen && npx playwright test --grep @smoke",
     "test:dev": "cross-env ENV=dev npx bddgen && npx playwright test",
     "test:staging": "cross-env ENV=staging npx bddgen && npx playwright test",
     "allure:generate": "npx allure generate allure-results --clean -o allure-report",
